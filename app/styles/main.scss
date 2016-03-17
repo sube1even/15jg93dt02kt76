@@ -8,14 +8,26 @@ $icon-font-path: '../fonts/';
 
 @import "https://fonts.googleapis.com/css?family=Roboto:400,100";
 
+$grey:rgb(142, 142, 142);
+
 body {
   font-family: Roboto;
   font-weight: 100;
   font-size: 16px;
+
+}
+a {
+  color:black;
+
+  &:hover {
+    text-decoration: none;
+    color:$grey;
+  }
 }
 
 h1 {
   font-size: 4.2em;
+    letter-spacing: 0.1em;
   font-weight: 100;
 
 }
@@ -23,8 +35,19 @@ h1 {
 h2 {
   font-size: 2.8em;
   font-weight: 100;
-
+    letter-spacing: 0.1em;
 }
 .row {
   margin:5em 0;
+}
+
+.logo {
+  font-size: 0.8em;
+  letter-spacing: 0.5em;
+  font-weight: 100;
+  margin: 2em 0;
+
+}
+.icon-link {
+  margin-right:0.5em;
 }

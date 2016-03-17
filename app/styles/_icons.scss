@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:    url('fonts/icomoon.eot?slfwpc');
-    src:    url('fonts/icomoon.eot?slfwpc#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?slfwpc') format('truetype'),
-        url('fonts/icomoon.woff?slfwpc') format('woff'),
-        url('fonts/icomoon.svg?slfwpc#icomoon') format('svg');
+    src:    url('../fonts/icomoon.eot?slfwpc');
+    src:    url('../fonts/icomoon.eot?slfwpc#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?slfwpc') format('truetype'),
+        url('../fonts/icomoon.woff?slfwpc') format('woff'),
+        url('../fonts/icomoon.svg?slfwpc#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -75,4 +75,3 @@
 .icon-link:before {
     content: "\e910";
 }
-
