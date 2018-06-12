@@ -1,0 +1,12 @@
+image: debian:stable-slim
+
+pipelines:
+  - step:
+      name: Deploy to prod
+      deployment: prod
+      script:
+        - apt-get update
+        - apt-get -y install git
+        - apt-get -qq install git-ftp
+        - git config git-ftp.syncroot dist/
+        - git ftp init -v --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://$FTP_SERVER
